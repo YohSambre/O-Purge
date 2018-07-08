@@ -1,3 +1,4 @@
+AddCSLuaFile( "client/cl_opurge.lua" )
 --<>-- Choose en for english or fr for french for the sound
 --<>-- Choisisser en pour anglais ou fr pour français pour le son
 OPurge_Language = "fr"
