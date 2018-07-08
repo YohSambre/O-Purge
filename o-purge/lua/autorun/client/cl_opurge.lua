@@ -1,37 +1,20 @@
 include("opurge_config.lua")
 
---<>-- Offshorp Copyright
---<>-- Please don't edit if you respect my job
-print(" ")
---<>-- Offshorp Copyright
---<>-- Please don't edit if you respect my job
-MsgC( Color( 255, 255, 0 ), "###################################" )
---<>-- Offshorp Copyright
---<>-- Please don't edit if you respect my job
-print(" ")
---<>-- Offshorp Copyright
---<>-- Please don't edit if you respect my job
-print("O'Purge - A new Purge System")
---<>-- Offshorp Copyright
---<>-- Please don't edit if you respect my job
-print("version 1.0.0")
---<>-- Offshorp Copyright
---<>-- Please don't edit if you respect my job
-print(" ")
---<>-- Offshorp Copyright
---<>-- Please don't edit if you respect my job
-print("by Offshorp")
---<>-- Offshorp Copyright
---<>-- Please don't edit if you respect my job
-print("https://offshorp.com")
---<>-- Offshorp Copyright
---<>-- Please don't edit if you respect my job
-MsgC( Color( 255, 255, 0 ), "###################################" )
---<>-- Offshorp Copyright
---<>-- Please don't edit if you respect my job
-print(" ")
---<>-- Offshorp Copyright
---<>-- Please don't edit if you respect my job
+MsgC(Color(math.random(1,255),math.random(1,255),math.random(1,255)), [[ 
+            ═════════════════ஜ۩۞۩ஜ═══════════════════
+               ###################################              
+                  O'Purge - A new Purge System
+                          version 1.0.0
+                      https://offshorp.com
+               ###################################
+            ═════════════════ஜ۩۞۩ஜ═══════════════════                      ]])
+       MsgC (Color(math.random(1,255),math.random(1,255),math.random(1,255)), [[ 
+     for the respect of my original work leave the original credit
+                      +---------------------+
+                      |    by RimosPixel    |
+                      ^---------------------^
+ ]])
+
 
 --<>-- My fonts
 surface.CreateFont( "KillHUDFont", {
